@@ -1,0 +1,500 @@
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+
+    background-color: #5e0303;
+
+    font-family: "Poppins";
+}
+
+/*button{
+
+    color: #ffff;
+    background-color: #474747;
+}*/
+
+header{
+
+    background-color: #5e0303;
+
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -22px;
+    margin-bottom: -22px;
+
+    font-family: 'Poppins';
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.btnHomepage2{
+
+    align-items: center;
+    
+    margin-left: 560px;
+    margin-top: 37px;
+
+    padding-top: 40px;
+   
+    background-color: transparent;
+}
+
+
+.home {
+    color: #fff;
+    transition: 0.3s;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.home::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    bottom: 7px; /* Ajuste para ficar logo abaixo do texto */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-in-out;
+}
+
+.home:hover {
+    color: rgb(255, 74, 43);
+    transform: scale(1.2);
+}
+
+.home:hover::after {
+    width: 100%;
+}
+
+.atividadesHome {
+    color: #fff;
+    transition: 0.3s;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.atividadesHome::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    bottom: 7px; /* Ajuste para ficar logo abaixo do texto */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-in-out;
+}
+
+.atividadesHome:hover {
+    color: rgb(255, 74, 43);
+    transform: scale(1.2);
+}
+
+.atividadesHome:hover::after {
+    width: 100%;
+}
+
+.contateHome {
+    color: #fff;
+    transition: 0.3s;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.contateHome::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    bottom: 7px; /* Ajuste para ficar logo abaixo do texto */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-in-out;
+}
+
+.contateHome:hover {
+    color: rgb(255, 74, 43);
+    transform: scale(1.2);
+}
+
+.contateHome:hover::after {
+    width: 100%;
+}
+
+
+.cardsAtividadesGeral{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    margin-top: 50px;
+}
+
+.linha1{
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 30px;
+}
+
+.linha2{
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 30px;
+}
+
+.btnHumanas{
+
+    color: #ffff;
+    background-color: #474747;
+    border: 1px solid #474747;
+    border-radius: 25px;
+
+    padding: 9px;
+
+    font-family: "Poppins";
+
+    z-index: 2;
+}
+
+.btnLinguagens{
+
+    color: #ffff;
+    background-color: #474747;
+    border: 1px solid #474747;
+    border-radius: 25px;
+
+    padding: 9px;
+
+    font-family: "Poppins";
+
+    z-index: 2;
+}
+
+.btnMatematica{
+
+    color: #ffff;
+    background-color: #474747;
+    border: 1px solid #474747;
+    border-radius: 25px;
+
+    padding: 7px;
+
+    font-family: "Poppins";
+
+    z-index: 2;
+}
+
+.btnNatureza{
+
+    color: #ffff;
+    background-color: #474747;
+    border: 1px solid #474747;
+    border-radius: 25px;
+
+    padding: 9px;
+
+    font-family: "Poppins";
+
+    z-index: 2;
+}
+
+.btnTecnico{
+
+    color: #ffff;
+    background-color: #474747;
+    border: 1px solid #474747;
+    border-radius: 25px;
+
+    padding: 9px;
+
+    font-family: "Poppins";
+
+    z-index: 2;
+}
+
+.btnExtras{
+
+    color: #ffff;
+    background-color: #474747;
+    border: 1px solid #474747;
+    border-radius: 25px;
+
+    padding: 9px;
+
+    font-family: "Poppins";
+
+    z-index: 2;
+}
+
+.btnPPE{
+
+    color: #ffff;
+    background-color: #474747;
+    border: 1px solid #474747;
+    border-radius: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    font-family: "Poppins";
+
+    z-index: 2;
+}
+
+
+.cardHumanas{
+
+    border: 1px solid #373737;
+    border-radius: 15px;
+    background-color: #373737;
+
+    color: #fff;
+
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+
+    box-shadow: 2px 2px 50px 2px #282828;
+
+    align-items: center;
+    text-align: center;
+
+    transition: 0.5s;
+}
+
+.cardHumanas:hover{
+
+    background-color: #fff;
+
+    color: rgb(173, 28, 2);
+}
+
+.cardLinguagens{
+
+    border: 1px solid #373737;
+    border-radius: 15px;
+    background-color: #373737;
+
+    color: #fff;
+
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+
+
+    box-shadow: 2px 2px 50px 2px #282828;
+
+    align-items: center;
+    text-align: center;
+
+    transition: 0.5s;
+
+}
+
+.cardLinguagens:hover{
+
+    background-color: #fff;
+
+    color: rgb(173, 28, 2);
+}
+
+.cardMatematica{
+
+    border: 1px solid #373737;
+    border-radius: 15px;
+    background-color: #373737;
+
+    color: #fff;
+
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+
+    box-shadow: 2px 2px 50px 2px #282828;
+
+    align-items: center;
+    text-align: center;
+
+    transition: 0.5s;
+
+}
+
+.cardMatematica:hover{
+
+    background-color: #fff;
+
+    color: rgb(173, 28, 2);
+}
+
+.cardNatureza{
+
+    border: 1px solid #373737;
+    border-radius: 15px;
+    background-color: #373737;
+
+    color: #fff;
+
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+
+    box-shadow: 2px 2px 50px 2px #282828;
+
+    align-items: center;
+    text-align: center;
+
+    transition: 0.5s;
+
+}
+
+.cardNatureza:hover{
+
+    background-color: #fff;
+
+    color: rgb(173, 28, 2);
+}
+
+.cardTecnico{
+
+    border: 1px solid #373737;
+    border-radius: 15px;
+    background-color: #373737;
+
+    color: #fff;
+
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+
+    box-shadow: 2px 2px 50px 2px #282828;
+
+    align-items: center;
+    text-align: center;
+
+    transition: 0.5s;
+
+}
+
+.cardTecnico:hover{
+
+    background-color: #fff;
+
+    color: rgb(173, 28, 2);
+}
+
+.cardExtras{
+
+    border: 1px solid #373737;
+    border-radius: 15px;
+    background-color: #373737;
+
+    color: #fff;
+
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+
+    box-shadow: 2px 2px 50px 2px #282828;
+
+    align-items: center;
+    text-align: center;
+
+    transition: 0.5s;
+
+}
+
+.cardExtras:hover{
+
+    background-color: #fff;
+
+    color: rgb(173, 28, 2);
+}
+
+.cardPPE{
+
+    border: 1px solid #373737;
+    border-radius: 15px;
+    background-color: #373737;
+
+    color: #fff;
+
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+
+    box-shadow: 2px 2px 50px 2px #282828;
+
+    align-items: center;
+    text-align: center;
+
+    transition: 0.5s;
+
+}
+
+.cardPPE:hover{
+
+    background-color: #fff;
+
+    color: rgb(173, 28, 2);
+}
+
+p{
+
+    font-size: x-large;
+    font-weight: 600;
+
+    margin-top: -70px;
+    margin-bottom: 90px;
+}
