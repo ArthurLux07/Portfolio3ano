@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades</title>
+
+    <link rel="stylesheet" href="atividades.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="btnHomepage2">    
+            <button class="home" onclick="redirectHome()"> Home </button>
+            <button class="atividadesHome" onclick=""> Atividades </button>
+            <button class="contateHome" onclick="redirectContate()"> Contate-me </button>
+        </div>
+    </header>
+
+    <section class="cardsAtividadesGeral">
+
+        <div class="linha1">
+            <div class="cardHumanas">
+                <p>Humanas</p>
+                <button class="btnHumanas" onclick="verAtivHumanas()"> Veja mais </button>
+            </div>
+            <div class="cardLinguagens">
+                <p>Linguagens</p>
+                <button class="btnLinguagens" onclick="verAtivLinguagens()"> Veja mais </button>
+            </div>
+            <div class="cardMatematica">
+                <p>Matemática</p>
+                <button class="btnMatematica" onclick="verAtivMatematica()"> Veja mais </button>
+            </div>
+            <div class="cardNatureza">
+                <p>Natureza</p>
+                <button class="btnNatureza" onclick="verAtivNatureza()"> Veja mais </button>
+            </div>
+        </div>
+        <div class="linha2">
+            <div class="cardTecnico">
+                <p>Técnico</p>
+                <button class="btnTecnico" onclick="verAtivTecinico()"> Veja mais </button>
+            </div>
+            <div class="cardExtras">
+                <p>Ativs. Extras</p>
+                <button class="btnExtras" onclick="verAtivExtras()"> Veja mais </button>
+            </div>
+            <div class="cardPPE">
+                <p>PPE</p>
+                <button class="btnPPE" onclick="verAtivPPE()"> Veja mais </button>
+            </div>
+        <!--</div>-->
+    </section>
+
+    <script src="atividades.js"></script>
+
+</body>
+</html>
